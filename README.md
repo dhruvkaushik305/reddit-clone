@@ -1,20 +1,23 @@
 # Reddit Clone App on Kubernetes
+
 This project demonstrates how to deploy a Reddit clone app on Kubernetes and expose it to the world using Minikube as the cluster.
 
 ## Prerequisites
-Before you begin, you should have the following tools installed on your local machine: 
+
+Before you begin, you should have the following tools installed on your local machine:
 
 - Docker
 - Minikube cluster ( Running )
 - kubectl
 - Git
 
-#sudo service jenkins status
+---
 
-**************************************
 Docker shell script
-**************************************
-#!/bin/bash 
+
+---
+
+#!/bin/bash
 
 sudo apt update -y
 
@@ -34,13 +37,4 @@ sudo apt install docker-ce -y
 
 sudo chmod 777 /var/run/docker.sock
 
-
-----------------------------------------------------------------------------------------------------------------------------
-
-*******************
-CloudFormation template
-*******************
-
-https://amazon-eks.s3.us-west-2.amazonaws.com/cloudformation/2020-06-10/amazon-eks-vpc-private-subnets.yaml
-
-------------------------------------------------------------------------------------------------------------------------------
+---
